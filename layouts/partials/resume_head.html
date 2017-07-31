@@ -11,6 +11,14 @@
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/layout.css">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
     <link rel="shortcut icon" type="image/x-icon" href="{{ .Site.BaseURL }}img/favicon.ico">
+    <title>
+    {{- $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" -}}
+    {{- if eq $url "/" -}}
+        {{- .Site.Title -}}
+    {{- else -}}
+        {{- if .Params.heading -}} {{- .Params.heading -}} {{- else -}} {{- .Title -}} {{- end -}}
+    {{- end -}}
+	</title>
     {{ range .Site.Params.custom_css }}
     <link rel="stylesheet" href="{{ $.Site.BaseURL}}{{ . }}">
     {{ end }}
