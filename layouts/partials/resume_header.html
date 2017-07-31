@@ -5,7 +5,7 @@
     <a href="tel:{{ .Site.Params.Resume.tel_full }}">{{ .Site.Params.Resume.tel }}</a>
   </p>
   <address>
-    <a href="{{ .Site.Params.Resume.google_maps }}">
+    <a href="{{ .Site.Params.Resume.google_maps }}" target="_blank">
       {{ .Site.Params.Resume.address }}<br/>
       {{ .Site.Params.Resume.postcode }}<br/>
       {{ .Site.Params.Resume.city }}<br/>
@@ -13,11 +13,11 @@
     </a>
   </address>
   <p>
-    <a href="{{ .Site.Params.Resume.website_full }}">{{ .Site.Params.Resume.website }}</a><br/>
+    <a href="{{ .Site.Params.Resume.website_full }}" target="_blank">{{ .Site.Params.Resume.website }}</a><br/>
   </p>
   <p>
     <a href="{{ .Site.Params.Resume.email_full }}">{{ .Site.Params.Resume.email }}</a>
-    <a href="http://github.com/{{ .Site.Params.Resume.github }}"><i class="fa fa-github"></i>&nbsp;Github</a> /
-    <a href="http://linkedin.com/in/{{ .Site.Params.Resume.linkedin }}"><i class="fa fa-linkedin-square"></i>&nbsp;Linkedin</a>
+    <a href="http://github.com/{{ .Site.Params.Resume.github }}" target="_blank"><i class="fa fa-github"></i>&nbsp;Github</a> /
+    <a href="http://linkedin.com/in/{{ .Site.Params.Resume.linkedin }}" target="_blank"><i class="fa fa-linkedin-square"></i>&nbsp;Linkedin</a>
   </p>
 </header>
