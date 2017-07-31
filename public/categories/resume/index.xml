@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resume on Willian Bandeira Alves</title>
+    <link>https://willianba.github.io/categories/resume/</link>
+    <description>Recent content in Resume on Willian Bandeira Alves</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-BR</language>
+    <lastBuildDate>Sun, 30 Jul 2017 12:13:05 +0000</lastBuildDate>
+    
+	<atom:link href="https://willianba.github.io/categories/resume/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Currículo</title>
+      <link>https://willianba.github.io/resume/</link>
+      <pubDate>Sun, 30 Jul 2017 12:13:05 +0000</pubDate>
+      
+      <guid>https://willianba.github.io/resume/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://willianba.github.io/blog/primeiro-post/</loc>
+    <lastmod>2017-07-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://willianba.github.io/resume/</loc>
+    <lastmod>2017-07-30T12:13:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://willianba.github.io/projects/</loc>
+    <lastmod>2017-07-30T12:13:05+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://willianba.github.io/blog/</loc>
+    <lastmod>2017-07-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://willianba.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://willianba.github.io/tags/projects/</loc>
+    <lastmod>2017-07-30T12:13:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://willianba.github.io/categories/projects/</loc>
+    <lastmod>2017-07-30T12:13:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://willianba.github.io/tags/resume/</loc>
+    <lastmod>2017-07-30T12:13:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://willianba.github.io/categories/resume/</loc>
+    <lastmod>2017-07-30T12:13:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://willianba.github.io/tags/</loc>
+    <lastmod>2017-07-30T12:13:05+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://willianba.github.io/</loc>
+    <lastmod>2017-07-31T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
