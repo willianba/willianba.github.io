@@ -1,0 +1,65 @@
+baseurl = "https://willianba.github.io/"
+languageCode = "pt-BR"
+title = "Willian Bandeira Alves"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+# Uncomment if using themes/hugo-sustain folder
+# theme = "hugo-sustain"
+
+[permalinks]
+  post = "/:day/:month/:year/:slug"
+
+[params]
+  avatar = "profile.png"
+  author = "Willian Alves"
+  description = "Site pessoal - Willian Alves"
+
+[params.resume]
+  author = "Willian Alves"
+  title = "Currículo Willian Alves"
+  description = "Currículo Willian Alves"
+  avatar = "profile.png"
+  email = "wba.alves@gmail.com"
+  email_full = "mailto:wba.alves@gmail.com"
+  website = "willianba.github.io/"
+  website_full = "https://willianba.github.io/"
+  github = "willianba"
+  linkedin = "willianba"
+  tel = "+55 51 984469967"
+  tel_full = "+5551984469967"
+  google_maps = "https://www.google.com.br/maps/place/R.+Lu%C3%ADs+Linck+Barcelos,+84+-+Loteamento+Jardim+Timba%C3%BAva,+Gravata%C3%AD+-+RS/@-29.9244386,-50.9915908,17z/data=!3m1!4b1!4m5!3m4!1s0x95190b673950f85d:0x631a7729cfbe9efa!8m2!3d-29.9244386!4d-50.9894021?hl=pt-BR"
+  address = "Rua Luis Linck Barcelos, 84"
+  postcode = "94015-590"
+  city = "Gravataí, RS"
+  country = "Brasil"
+
+  # Custom assets can be linked with their paths relative to static/
+  custom_css = []
+  custom_js  = []
+
+[params.social]
+  Email         = "wba.alves@gmail.com"
+  Github        = "willianba"
+  LinkedIn      = "willianba"
+  Twitter		= "flagwill"
+  Facebook      = "wbaalves"
+  Instagram		= "wbaalves"
+
+## Main Menu
+[[menu.main]]
+  name = "blog"
+  identifier = "blog"
+  weight = 100
+  url = "/blog/"
+[[menu.main]]
+  name = "projetos"
+  identifier = "projects"
+  weight = 200
+  url = "/projects/"
+[[menu.main]]
+  name = "currículo"
+  identifier = "resume"
+  weight = 300
+  url = "/resume/"

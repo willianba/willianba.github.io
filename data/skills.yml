@@ -1,0 +1,29 @@
+name: Habilidades
+topics:
+  prog:
+    title: Programação
+    source:
+      - name: [Java]
+        stars: 3
+
+      - name: ["Android, Python e Git"]
+        stars: 2
+
+      - name: [C e Bash]
+        stars: 1
+  so:
+    title: Sistemas Operacionais
+    source:
+      - name: [Windows]
+        stars: 4
+
+      - name: [GNU/Linux]
+        stars: 3
+  lang:
+    title: Idiomas
+    source:
+      - name: [Inglês]
+        stars: 4
+
+      - name: [Espanhol]
+        stars: 2

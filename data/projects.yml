@@ -1,0 +1,11 @@
+name: Projetos
+source:
+  - icon: fa fa-github
+    name: Visitas Guiadas
+    link: https://github.com/DeyvissonAlex/visitasguiadas
+    description: Visitas Guiadas é um aplicativo para Android que visa auxiliar calouros e visitantes interessados a conhecerem o prédio de informática da PUCRS.
+
+  - icon: fa fa-github
+    name: Convolutional Mario
+    link: https://github.com/jrzmnt/ConvolutionalMario
+    description: Convolutional Mario é um projeto que utiliza o jogo Super Mario Bros e técnicas de Deep Learning para criar uma inteligência artificial capaz de tomar decisões baseadas nas imagens do jogo.
