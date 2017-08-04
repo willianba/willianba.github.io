@@ -51,14 +51,14 @@ googleAnalytics = ""
   url = "/blog/"
 [[menu.main]]
   name = "projetos"
-  identifier = "projects"
+  identifier = "projetos"
   weight = 200
-  url = "/projects/"
+  url = "/projetos/"
 [[menu.main]]
   name = "currículo"
-  identifier = "resume"
+  identifier = "curriculo"
   weight = 300
-  url = "/resume/"
+  url = "/curriculo/"
 
 [Languages]
 [Languages.br]
