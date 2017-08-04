@@ -1,12 +1,8 @@
 baseurl = "https://willianba.github.io/"
-languageCode = "pt-BR"
+languageCode = "pt-br"
 title = "Willian Bandeira Alves"
-# Enable comments by entering your Disqus shortname
-disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
-# Uncomment if using themes/hugo-sustain folder
-# theme = "hugo-sustain"
 
 [permalinks]
   post = "/:day/:month/:year/:slug"
@@ -63,3 +59,6 @@ googleAnalytics = ""
   identifier = "resume"
   weight = 300
   url = "/resume/"
+
+[Languages]
+[Languages.br]
