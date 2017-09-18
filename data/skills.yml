@@ -6,18 +6,24 @@ topics:
       - name: [Java]
         stars: 3
 
-      - name: ["Android, Python e Git"]
+      - name: [Python]
         stars: 2
 
-      - name: [C e Bash]
+      - name: [Git]
+        stars: 2
+
+      - name: [Android]
+        stars: 2
+
+      - name: [Bash]
         stars: 1
   so:
     title: Sistemas Operacionais
     source:
-      - name: [Windows]
-        stars: 4
+      - name: [Linux]
+        stars: 3
 
-      - name: [GNU/Linux]
+      - name: [Windows]
         stars: 3
   lang:
     title: Idiomas

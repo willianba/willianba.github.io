@@ -45,11 +45,6 @@ googleAnalytics = ""
 
 ## Main Menu
 [[menu.main]]
-  name = "blog"
-  identifier = "blog"
-  weight = 100
-  url = "/blog/"
-[[menu.main]]
   name = "projetos"
   identifier = "projetos"
   weight = 200
