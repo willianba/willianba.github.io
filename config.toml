@@ -1,4 +1,5 @@
-baseurl = "https://willianba.github.io/"
+baseurl = "https://willianba.me/"
+enforce_ssl = "www.willianba.me"
 languageCode = "pt-br"
 title = "Willian Bandeira Alves"
 # Enable Google Analytics by entering your tracking code
