@@ -3,20 +3,27 @@ topics:
   prog:
     title: Programação
     source:
-      - name: [Java]
+      - name: [JavaScript]
+        stars: 3
+
+      - name: [Bootstrap]
         stars: 3
 
       - name: [Python]
+        stars: 3
+
+      - name: [HTML]
+        stars: 3
+
+      - name: [CSS]
+        stars: 3
+
+      - name: [Java]
         stars: 2
 
       - name: [Git]
         stars: 2
 
-      - name: [Android]
-        stars: 2
-
-      - name: [Bash]
-        stars: 1
   so:
     title: Sistemas Operacionais
     source:

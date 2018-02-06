@@ -9,3 +9,8 @@ source:
     name: Convolutional Mario
     link: https://github.com/jrzmnt/ConvolutionalMario
     description: Convolutional Mario é um projeto que utiliza o jogo Super Mario Bros e técnicas de Deep Learning para criar uma inteligência artificial capaz de tomar decisões baseadas nas imagens do jogo.
+
+  - icon: fa fa-github
+  name: Spotify-dl
+  link: https://github.com/willianba/spotify-dl
+  description: Um fork do projeto do usuário invicnaper do GitHub. Adicionei a funcionalidade de download de playlists do Spotify utilizando o youtube-dl.
