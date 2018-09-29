@@ -1,5 +1,5 @@
-baseurl = "https://willianba.me/"
-enforce_ssl = "www.willianba.me"
+baseurl = "https://willianba.github.io/"
+enforce_ssl = "www.willianba.github.io"
 languageCode = "pt-br"
 title = "Willian Bandeira Alves"
 # Enable Google Analytics by entering your tracking code
@@ -20,8 +20,8 @@ googleAnalytics = ""
   avatar = "profile.png"
   email = "wba.alves@gmail.com"
   email_full = "mailto:wba.alves@gmail.com"
-  website = "willianba.me/"
-  website_full = "https://willianba.me/"
+  website = "willianba.github.io/"
+  website_full = "https://willianba.github.io/"
   github = "willianba"
   linkedin = "willianba"
   tel = "+55 51 984469967"
@@ -37,12 +37,12 @@ googleAnalytics = ""
   custom_js  = []
 
 [params.social]
-  Email         = "wba.alves@gmail.com"
-  Github        = "willianba"
-  LinkedIn      = "willianba"
-  Twitter		= "flagwill"
-  Facebook      = "wbaalves"
-  Instagram		= "wbaalves"
+  Email       = "wba.alves@gmail.com"
+  Github      = "willianba"
+  LinkedIn    = "willianba"
+  Twitter		  = "flagwill"
+  Facebook    = "wbaalves"
+  Instagram   = "wbaalves"
 
 ## Main Menu
 [[menu.main]]
