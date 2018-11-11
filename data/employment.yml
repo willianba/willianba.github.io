@@ -1,13 +1,40 @@
 name: Experiências Profissionais
 source:
+  - prof: Estagiário Rotation Program | Cloud Service Center
+    comp: SAP Labs Latin America
+    place: São Leopoldo, RS
+    time: 03/2018 - Atual
+    description:
+      Desenvolvimento de extensões customizadas para SAP Learning Management System (LMS) para clientes como NASA, U.S. Marshals, Veteran Affais, entre outros. Trabalhando principalmente com Java, Spring, JSP e SQL;
+      Desenvolvimento de serviços web utilizando conceitos de APIs REST para suportar as telas do SAP SuccessFactors Learning Management System;
+      Desenvolvimento front-end de aplicações web com tecnologia SAPUI5 a fim de criar telas customizadas e componentizadas;
+      Participação em reuniões com clientes SAP e time global, contribuindo com demonstrações e apresentações das atividades ou dos projetos desenvolvidos.
+
   - prof: Estágio - Projeto Cloud
     comp: PTDI-Dell/PUCRS
     place: Porto Alegre, RS
     time: 09/2017 - 03/2018
-    description: Fui estagiário no Projeto Cloud (convênio Dell/PUCRS) onde trabalhei com desenvolvimento focado em virtualização e cloud computing.
+    description:
+      Pesquisas exploratórias comparando o uso de OpenStack e VMware vCenter;
+      Automação da instalação do VMware Integrated OpenStack (VIO) no vCenter utilizando Ansible;
+      Desenvolvimento de uma aplicação web para cálculo de custos utilizando Django;
+      Escrita de relatórios sobre VMware, OpenStack e Pivotal Cloud Foundry;
+      Virtualização utilizando Docker e Vagrant.
 
-  - prof: Estagiário Rotation Program
-    comp: SAP Labs Latin America
-    place: São Leopoldo, RS
-    time: 03/2018 - Atual
-    description: Atualmente sou estagiário do Rotation Program na SAP Labs Latin America onde em dois anos irei passar por três Line of Business (LoB) diferentes.
+  - prof: Iniciação Científica
+    comp: PET-Informática
+    place: Porto Alegre, RS
+    time: 09/2017 - 03/2018
+    description:
+      Contribuição com o desenvolvimento de uma aplicação Android focada em introduzir o prédio de informática da PUCRS para visitantes;
+      Criação de um dataset de Super Mario para uso com Inteligência Artificial;
+      Auxílio no treino de redes neurais convolucionais utilizando o dataset de Super Mario;
+      Utilização de conceitos e ferramentas de data science durante o projeto.
+
+  - prof: Técnico em Eletrônica
+    comp: Perto S.A.
+    place: Gravataí, RS
+    time: 03/2014 - 12/2015
+    description:
+      Auxílio no desenvolvimento de mecanismos dispensadores utilizados em banco e varejo;
+      Colaboração em testes e reparos de placas de circuito impresso com componentes PTH e SMD.

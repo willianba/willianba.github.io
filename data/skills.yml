@@ -2,48 +2,43 @@ name: Habilidades
 topics:
   prog:
     title: Programação
-    source:   
-      - name: [Git]
+    source:
+      - name: [Java]
+        stars: 4
+
+      - name: [Spring]
+        stars: 4
+
+      - name: [SQL Database]
         stars: 4
 
       - name: [Python]
         stars: 3
 
-      - name: [Java]
-        stars: 3
-
-      - name: [Spring]
-        stars: 3
-
       - name: [JavaScript]
         stars: 3
-      
-      - name: [SAP UI5]
+
+      - name: [SAPUI5]
         stars: 3
 
       - name: [CSS]
         stars: 3
 
-      - name: [HTML]
+      - name: [Docker]
         stars: 2
 
-      - name: [Bootstrap]
+      - name: [HTML]
         stars: 2
 
       - name: [Bash]
         stars: 2
 
-  so:
-    title: Sistemas Operacionais
-    source:
-      - name: [Linux]
-        stars: 4
-
-      - name: [Windows]
-        stars: 4
   lang:
     title: Idiomas
     source:
+      - name: [Português]
+        stars: 5
+
       - name: [Inglês]
         stars: 4
 

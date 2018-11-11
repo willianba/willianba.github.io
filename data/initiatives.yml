@@ -1,19 +1,14 @@
 name: Atividades
 source:
+  - title: Organizador Press Play Hackathon
+    univ: Unisinos @ SAP Next-Gen
+    place: São Leopoldo - RS
+    date: 2018
+    description: Juntamente com a equipe do SAP Next-Gen, organizamos o Press Play Hackathon promovido pela SAP e universidade Unisinos onde durante dois dias, dez equipes de cinco diferentes universidades elaboraram projetos para o desafio "Como redefinir a experiência do consumidor no varejo através da tecnologia?".
+
   - title: Semana Nacional de Ciência e Tecnologia
     univ: Escola Fundação Bradesco
     place: Gravataí, RS
     date: 2015
     description: "Palestrante voluntário na Semana Nacional de Ciência e Tecnologia. Foram abordados assuntos sobre meu TCC do curso técnico: Controlador Automático de pH para Sistemas Hidropônicos."
-
-  - title: Robótica Educacional em Debate - RED#2
-    univ: Faculdade de Tecnologia Senai
-    place: Porto Alegre, RS
-    date: 2015
-    description: Participante do evento RED#2 – Robótica Educacional em Debate e das oficinas FIRST Robotics Competition (FRC) e FIRST Lego League (FLL).
-
-  - title: Press Play Hackathon
-    univ: Unisinos @ SAP Next-Gen
-    place: São Leopoldo - RS
-    date: 2018
-    description: Participante da organização da Press Play Hackathon que aconteceu na SAP Next-Gen em 2018, que contava com mais de 40 estudantes de universidades do Rio Grande do Sul.
+    
