@@ -10,7 +10,7 @@ googleAnalytics = ""
   post = "/:day/:month/:year/:slug"
 
 [params]
-  avatar = "profile.png"
+  avatar = "profile.jpg"
   author = "Willian Bandeira Alves"
   description = "Site Pessoal - Willian Alves"
 
@@ -38,16 +38,9 @@ googleAnalytics = ""
   Email       = "wba.alves@gmail.com"
   Github      = "willianba"
   LinkedIn    = "willianba"
-  Twitter		  = "flagwill"
-  Facebook    = "wbaalves"
   Instagram   = "wbaalves"
 
 ## Main Menu
-[[menu.main]]
-  name = "projetos"
-  identifier = "projetos"
-  weight = 200
-  url = "/projetos/"
 [[menu.main]]
   name = "currículo"
   identifier = "curriculo"

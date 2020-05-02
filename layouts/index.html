@@ -1,22 +1,24 @@
 {{ partial "head" . }}
-  <body>
-    <div id="wrap">
-      {{ partial "header" . }}
-      <section id="about">
-        <div class="container">
+
+<body>
+  <div id="wrap">
+    {{ partial "header" . }}
+    <section id="about">
+      <div class="container">
         <div class="avatar">
           <img class="img-circle" src="{{ .Site.BaseURL }}img/{{ .Site.Params.avatar }}" alt="Responsive image">
         </div>
         <h3><strong>{{ .Site.Params.author }}</strong></h3>
-        <h3>Graduando de Sistemas de Informação.</h3>
-        <h3>Estagiário Rotation Program - SAP Labs Latin America.</h3>
-        <h3>Veja os <a href="{{ .Site.BaseURL }}projetos/"> projetos</a> em que trabalhei.</h3>
+        <h3>Graduando de Sistemas de Informação @ PUCRS.</h3>
+        <h3>Desenvolvedor de Software @ SAP Labs Latin America.</h3>
         <h3>Dê uma olhada em meu <a href="{{ .Site.BaseURL }}curriculo/">currículo</a>.</h3>
-        <h3>Entre em contato pelo <a href="http://linkedin.com/in/{{ .Site.Params.Social.LinkedIn }}" target="_blank">linkedin</a> ou por <a href="mailto:{{ .Site.Params.Social.Email }}">email</a>.</h3>
-        {{ partial "social.html" . }}        
-        </div>
-      </section>
-    </div>
-    {{ partial "footer" . }}
-  </body>
+        <h3>Entre em contato pelo <a href="http://linkedin.com/in/{{ .Site.Params.Social.LinkedIn }}"
+          target="_blank">linkedin</a> ou por <a href="mailto:{{ .Site.Params.Social.Email }}">e-mail</a>.</h3>
+        {{ partial "social.html" . }}
+      </div>
+    </section>
+  </div>
+  {{ partial "footer" . }}
+</body>
+
 </html>

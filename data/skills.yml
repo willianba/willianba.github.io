@@ -3,34 +3,25 @@ topics:
   prog:
     title: Programação
     source:
-      - name: [Java]
+      - name: [Java/Spring Boot]
         stars: 4
 
-      - name: [Spring]
+      - name: [TypeScript]
         stars: 4
 
-      - name: [SQL Database]
-        stars: 4
+      - name: [VueJS]
+        stars: 3
 
       - name: [Python]
         stars: 3
 
-      - name: [JavaScript]
-        stars: 3
-
-      - name: [SAPUI5]
-        stars: 3
-
-      - name: [CSS]
-        stars: 3
-
       - name: [Docker]
-        stars: 2
+        stars: 3
 
-      - name: [HTML]
-        stars: 2
+      - name: [Kubernetes]
+        stars: 3
 
-      - name: [Bash]
+      - name: [ReactJS]
         stars: 2
 
   lang:

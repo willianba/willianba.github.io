@@ -1,15 +1,17 @@
-{{ partial "resume_head" . }}
-  <body>
-    <div class="container">
-      {{ partial "resume_header" . }}
-      <div class="thirteen columns clearfix">
-        {{ partial "education" . }}
-        {{ partial "employment" . }}
-        {{ partial "initiatives" . }}
-        {{ partial "skills" . }}
-        {{ partial "hobbies" . }}
-        {{ partial "resume_footer" . }}
-      </div>
+{{ partial "head" . }}
+
+<body>
+  <div class="container">
+    {{ partial "sidebar" . }}
+    <div class="thirteen columns clearfix">
+      {{ partial "education" . }}
+      {{ partial "employment" . }}
+      {{ partial "initiatives" . }}
+      {{ partial "skills" . }}
+      {{ partial "hobbies" . }}
+      {{ partial "footer" . }}
     </div>
-  </body>
+  </div>
+</body>
+
 </html>

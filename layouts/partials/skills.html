@@ -1,5 +1,5 @@
 <section class="thirteen columns">
-  <h1>{{ .Site.Data.skills.name }}</h1>    
+  <h1>{{ .Site.Data.skills.name }}</h1>
   {{ range $t := .Site.Data.skills.topics}}
   <article>
     <header>
@@ -7,10 +7,12 @@
     </header>
     {{ range $in, $el := $t.source }}
     <p>
-      {{ range $i, $seq := (seq .stars) }}<i class="fa fa-star"></i>{{ end }}{{ range $i, $seq := (seq (sub 5 (int .stars))) }}<i class="fa fa-star-o"></i>{{ end }}
-        &nbsp;&nbsp;<em>{{ delimit .name "</em>, <em>" "</em> & <em>" }}</em>
+      {{ range $i, $seq := (seq .stars) }}<i
+        class="fa fa-star"></i>{{ end }}{{ range $i, $seq := (seq (sub 5 (int .stars))) }}<i
+        class="fa fa-star-o"></i>{{ end }}
+      <em>{{ delimit .name "</em>, <em>" "</em> & <em>" }}</em>
     </p>
     {{ end }}
   </article>
-    {{ end }}
+  {{ end }}
 </section>

@@ -1,11 +1,15 @@
 <footer>
   <div id="footer">
-    <div class="container">
-      <p class="text-muted">&copy; 2017 Willian Bandeira Alves. All rights reserved. Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a> and
-      <a href="http://www.github.com/nurlansu/hugo-sustain/" target="_blank">sustain</a> with ♥</p>
+    {{ if .Page.IsHome  }}
+      <div class="container">
+    {{ else }}
+    <div class="thirteen columns">
+    {{ end }}
+      <p class="text-muted">&copy; 2020 Willian Bandeira Alves. All rights reserved. Powered by <a
+          href="https://gohugo.io/" target="_blank">Hugo</a> and
+        <a href="http://www.github.com/nurlansu/hugo-sustain/" target="_blank">sustain</a> with ♥</p>
     </div>
   </div>
 </footer>
-<div class="footer"></div>
 
 {{ partial "js" . }}
