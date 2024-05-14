@@ -1,0 +1,11 @@
+p {
+  margin: 0 0 0 0.5em;
+}
+
+.description {
+  font-size: 0.85em;
+  color: #a5adcb;
+  overflow: hidden;
+  margin: 0 auto 1em;
+  text-align: center;
+}

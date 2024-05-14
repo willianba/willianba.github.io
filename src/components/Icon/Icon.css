@@ -1,4 +1,9 @@
+a {
+  margin: 0;
+  text-decoration: none;
+}
+
 .icon {
-  width: 24px;
-  height: 24px;
+  width: 70px;
+  height: 70px;
 }

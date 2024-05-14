@@ -3,6 +3,7 @@ import "./Profile.css";
 import { Title } from "../../components/Title";
 import { Subtitle } from "../../components/Subtitle";
 import { Social } from "../../components/Social";
+import { Description } from "../../components/Description";
 
 export const Profile = () => {
   return {
@@ -10,7 +11,10 @@ export const Profile = () => {
       return m(".profile.fade-in", [
         m(".content", [
           m(Title, { text: "Willian Alves" }),
-          m(Subtitle, { text: "Software Engineer" }), // TODO move to constant
+          m(Subtitle, { text: "Senior Software Engineer" }), // TODO move to constant
+          m(Description, {
+            text: "an IT professional with solid knowledge in software development and devops, dealing with different technologies and following best practices to achieve the deployment of highly available and scalable applications. i'm also into music, videogames, and memes",
+          }),
           m(Social),
         ]),
       ]);

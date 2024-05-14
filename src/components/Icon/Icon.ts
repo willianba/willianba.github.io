@@ -49,12 +49,12 @@ export const Icon = () => {
       return m(
         "a",
         {
-          class: "icon",
           target: "_blank",
           href: icon.url,
         },
         [
           m("img", {
+            class: "icon",
             src: icon.path,
             alt: icon.alt ?? vnode.attrs.icon,
           }),

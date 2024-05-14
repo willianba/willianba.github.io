@@ -14,11 +14,12 @@
   flex-grow: 1;
   flex-direction: column;
   justify-content: center;
+  width: 65%;
 }
 
 .fade-in {
   opacity: 0;
-  animation: fadeInAnimation 1s ease forwards;
+  animation: fadeInAnimation 1.5s ease forwards;
 }
 
 @keyframes fadeInAnimation {
