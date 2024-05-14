@@ -1,0 +1,25 @@
+{
+  "name": "personal_website",
+  "version": "1.0.0",
+  "description": "My personal website written in mithriljs",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/willianba/personal_website.git"
+  },
+  "author": "Willian Alves",
+  "license": "ISC",
+  "homepage": "https://github.com/willianba/personal_website#readme",
+  "dependencies": {
+    "mithril": "^2.2.2"
+  },
+  "devDependencies": {
+    "@types/mithril": "^2.2.6",
+    "vite": "^5.2.11"
+  }
+}
