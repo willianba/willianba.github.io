@@ -10,6 +10,7 @@ export const Picture = () => {
           m("img", {
             class: "picture",
             src: "https://github.com/willianba.png",
+            alt: "Profile picture",
           }),
           m(".blob"),
         ]),
