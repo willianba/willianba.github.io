@@ -3,6 +3,7 @@
   min-height: 100vh;
   justify-content: center;
   max-width: 92%;
+  min-width: 390px;
   margin: auto;
   font-size: 1.5rem;
 }
