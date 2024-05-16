@@ -11,7 +11,7 @@ type AvailableIcons = {
   github: Icon;
   linkedin: Icon;
   email: Icon;
-  intagram: Icon;
+  instagram: Icon;
 };
 
 const availableIcons: AvailableIcons = {
@@ -30,8 +30,8 @@ const availableIcons: AvailableIcons = {
     path: "/email.svg",
     alt: "Email",
   },
-  intagram: {
-    url: "https://www.instagram.com/willianba/",
+  instagram: {
+    url: "https://www.instagram.com/wbaalves/",
     path: "/instagram.svg",
     alt: "Instagram",
   },

@@ -9,7 +9,7 @@ export const Social = () => {
         m(Icon, { icon: "email" }),
         m(Icon, { icon: "linkedin" }),
         m(Icon, { icon: "github" }),
-        m(Icon, { icon: "intagram" }),
+        m(Icon, { icon: "instagram" }),
       ]);
     },
   };
