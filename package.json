@@ -4,7 +4,7 @@
   "description": "My personal website written in mithriljs",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "typesafe-i18n & vite",
     "build": "vite build",
     "preview": "vite preview"
   },
