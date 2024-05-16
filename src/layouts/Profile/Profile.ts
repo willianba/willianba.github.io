@@ -5,6 +5,7 @@ import { Subtitle } from "../../components/Subtitle";
 import { Social } from "../../components/Social";
 import { Description } from "../../components/Description";
 import { Picture } from "../../components/Picture";
+import t from "../../i18n/t";
 
 export const Profile = () => {
   return {
@@ -12,11 +13,9 @@ export const Profile = () => {
       return m(".profile.fade-in", [
         m(".content", [
           m(Picture),
-          m(Title, { text: "Willian Alves" }),
-          m(Subtitle, { text: "Senior Software Engineer" }), // TODO move to constant
-          m(Description, {
-            text: "an IT professional with solid knowledge in software development and devops, dealing with different technologies and following best practices to achieve the deployment of highly available and scalable applications. i'm also into music, videogames, and memes",
-          }),
+          m(Title, { text: "Willian Bandeira Alves" }),
+          m(Subtitle, { text: t.role() }),
+          m(Description, { text: t.about_me() }),
           m(Social),
         ]),
       ]);
