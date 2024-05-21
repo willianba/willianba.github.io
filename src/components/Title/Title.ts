@@ -8,7 +8,7 @@ type TitleProps = {
 export const Title = () => {
   return {
     view: (vnode: Vnode<TitleProps>) => {
-      return m(".title", `${vnode.attrs.text} `);
+      return m(".title", `${vnode.attrs.text}`);
     },
   };
 };
